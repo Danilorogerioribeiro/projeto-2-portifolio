@@ -7,8 +7,8 @@ font-family: "Poppins", sans-serif;
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+   height: 100vh;
     background: #b373db ;
     padding: 15px 60px 15px 165px;
 }
@@ -141,29 +141,8 @@ h1{
     color: #6b6be0 ;
 }
 
-.link-img{
 
-    margin-left: 140px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    padding-right: 20px;
-    border-right: 1px solid #6b6be0;
-    margin-right: 240px;
-}
 
-.link-img:after {
-    position: absolute;
-    content: "";
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color:#6b6be0 ;
-    height: 10px;
-    top: 659px;
-    right: 295px;
-
-}
 
 .botao-rodape{
    
