@@ -1,0 +1,182 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #b373db ;
+    padding: 15px 60px 15px 165px;
+}
+.menu-header{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px ;
+    font-size: 14px;
+    font-weight: 500; 
+    position: relative;
+}
+
+.menu{
+    color: #303056 ;
+}
+.logo{
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.botao-suport{
+    background: transparent;
+    border: 1px solid #303056;
+    border-radius: 41px;
+    color: #303056;
+    padding: 10px 20px;
+ 
+}
+
+section {
+    display: flex;
+
+}
+.container-esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    width: 445px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #303056 ;
+    
+}
+
+h1{
+    width: 445px;
+    font-weight: 900;
+    font-size: 68px;
+    color: #303056 ;
+    margin-bottom: 10px;
+}
+
+.container-esquerdo p{
+    width: 50%;
+    height: 87px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303056 ;
+}
+.botao-rosa{
+    width: 425px;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 52px;
+    margin-left: -25px;
+}
+.botao-rosa a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 23px ;
+    font-weight: 600;
+    font-size: 15px;
+    color: #303056;
+    
+}
+
+.botao-rosa button {
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color:  #FFFFFF;
+    background-image: url("./img/bntrosa.png");
+    background-color: transparent;
+    border: none;
+    padding: 29px 43px;
+}
+.cantainer-direita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cantainer-direita img{
+ width: 700.65px;
+ 
+}
+
+.link-img-1{
+    display: block;
+    width: 190px;
+    font-weight: 700;
+    font-size: 20px;
+   text-align: right;
+   color: #6b6be0 ;
+
+}
+
+.link-img-2{
+    width: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6b6be0 ;
+}
+
+.link-img{
+
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 20px;
+    border-right: 1px solid #6b6be0;
+    margin-right: 240px;
+}
+
+.link-img:after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#6b6be0 ;
+    height: 10px;
+    top: 659px;
+    right: 295px;
+
+}
+
+.botao-rodape{
+   
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F8F8FD;
+   
+    margin: auto;
+    margin-top: 70px;
+    background-image: url("./img/Btntrasparente.png");
+    background-color: transparent;
+    border: none;
+    padding: 45px 93px;
+    
+}
